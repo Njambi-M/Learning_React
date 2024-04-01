@@ -4,6 +4,7 @@ import './App.css';
 import MyButton from"./components/MyButton";
 import AboutPage from"./components/AboutPage";
 import Profile from "./components/Profile";
+import ShoppingList from './components/ShoppingList';
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
         <MyButton/>
         <AboutPage/>
         <Profile/>
+        <ShoppingList/>
       </div>
       );
 }
