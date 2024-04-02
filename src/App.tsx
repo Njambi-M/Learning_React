@@ -28,33 +28,32 @@ function App() {
         <MyButton count ={count} onClick={handleClick}/>
         <MyButton count ={count} onClick={handleClick}/>
 
-          <Section level={1}>
+        {/* <Section level={1}> updating level manually*/}
+          <Section>
           <Heading>Title</Heading>
-          <Section level={2}>
+          <Section>
             <Heading>Heading</Heading>
             <Heading>Heading</Heading>
             <Heading>Heading</Heading>
 
-          <Section level={3}> 
+          <Section> 
           <Heading>Sub-heading</Heading>
           <Heading>Sub-heading</Heading>
           <Heading>Sub-heading</Heading>
           
-          <Section level={4}>
+          <Section>
           <Heading>Sub-sub-heading</Heading>
 
-          <Section level={5}>
+          <Section>
             <Heading>Sub-sub-sub-heading</Heading>
 
-          <Section level={6}>
-          <Heading>Sub-sub-sub-sub-heading</Heading>
-          <Heading>Sub-sub-sub-sub-heading</Heading>
+          
         </Section>
         </Section>
         </Section>
         </Section>
         </Section>
-        </Section>
+       
       </div>
       
       );
